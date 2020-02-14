@@ -2,7 +2,7 @@
 from collections import defaultdict
 def create_list(): return []
 cmps = defaultdict(create_list)
-
+#Understand why defaultdict is used here
 def generate_primes():
 
   v=2
